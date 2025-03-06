@@ -1,0 +1,3 @@
+C:/Users/borys/CLionProjects/WashingMachineFSM/cmake-build-debug/CMakeFiles/WashingMachineFSM.dir
+C:/Users/borys/CLionProjects/WashingMachineFSM/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/borys/CLionProjects/WashingMachineFSM/cmake-build-debug/CMakeFiles/rebuild_cache.dir
