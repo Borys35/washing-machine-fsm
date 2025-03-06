@@ -4,7 +4,11 @@ project(WashingMachineFSM)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(WashingMachineFSM main.cpp
-        state/State.h
-        state/State.cpp
-        transition/Transition.h
-        transition/Transition.cpp)
+        State.h
+        State.cpp
+        Transition.h
+        Transition.cpp
+        FSM.h
+        FSM.cpp
+        WashingMachine.cpp
+        WashingMachine.h)

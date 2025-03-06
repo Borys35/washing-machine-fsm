@@ -55,17 +55,29 @@ build CMakeFiles/WashingMachineFSM.dir/main.cpp.obj: CXX_COMPILER__WashingMachin
   OBJECT_DIR = CMakeFiles\WashingMachineFSM.dir
   OBJECT_FILE_DIR = CMakeFiles\WashingMachineFSM.dir
 
-build CMakeFiles/WashingMachineFSM.dir/state/State.cpp.obj: CXX_COMPILER__WashingMachineFSM_unscanned_Debug C$:/Users/borys/CLionProjects/WashingMachineFSM/state/State.cpp || cmake_object_order_depends_target_WashingMachineFSM
-  DEP_FILE = CMakeFiles\WashingMachineFSM.dir\state\State.cpp.obj.d
+build CMakeFiles/WashingMachineFSM.dir/State.cpp.obj: CXX_COMPILER__WashingMachineFSM_unscanned_Debug C$:/Users/borys/CLionProjects/WashingMachineFSM/State.cpp || cmake_object_order_depends_target_WashingMachineFSM
+  DEP_FILE = CMakeFiles\WashingMachineFSM.dir\State.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\WashingMachineFSM.dir
-  OBJECT_FILE_DIR = CMakeFiles\WashingMachineFSM.dir\state
+  OBJECT_FILE_DIR = CMakeFiles\WashingMachineFSM.dir
 
-build CMakeFiles/WashingMachineFSM.dir/transition/Transition.cpp.obj: CXX_COMPILER__WashingMachineFSM_unscanned_Debug C$:/Users/borys/CLionProjects/WashingMachineFSM/transition/Transition.cpp || cmake_object_order_depends_target_WashingMachineFSM
-  DEP_FILE = CMakeFiles\WashingMachineFSM.dir\transition\Transition.cpp.obj.d
+build CMakeFiles/WashingMachineFSM.dir/Transition.cpp.obj: CXX_COMPILER__WashingMachineFSM_unscanned_Debug C$:/Users/borys/CLionProjects/WashingMachineFSM/Transition.cpp || cmake_object_order_depends_target_WashingMachineFSM
+  DEP_FILE = CMakeFiles\WashingMachineFSM.dir\Transition.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\WashingMachineFSM.dir
-  OBJECT_FILE_DIR = CMakeFiles\WashingMachineFSM.dir\transition
+  OBJECT_FILE_DIR = CMakeFiles\WashingMachineFSM.dir
+
+build CMakeFiles/WashingMachineFSM.dir/FSM.cpp.obj: CXX_COMPILER__WashingMachineFSM_unscanned_Debug C$:/Users/borys/CLionProjects/WashingMachineFSM/FSM.cpp || cmake_object_order_depends_target_WashingMachineFSM
+  DEP_FILE = CMakeFiles\WashingMachineFSM.dir\FSM.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\WashingMachineFSM.dir
+  OBJECT_FILE_DIR = CMakeFiles\WashingMachineFSM.dir
+
+build CMakeFiles/WashingMachineFSM.dir/WashingMachine.cpp.obj: CXX_COMPILER__WashingMachineFSM_unscanned_Debug C$:/Users/borys/CLionProjects/WashingMachineFSM/WashingMachine.cpp || cmake_object_order_depends_target_WashingMachineFSM
+  DEP_FILE = CMakeFiles\WashingMachineFSM.dir\WashingMachine.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\WashingMachineFSM.dir
+  OBJECT_FILE_DIR = CMakeFiles\WashingMachineFSM.dir
 
 
 # =============================================================================
@@ -75,7 +87,7 @@ build CMakeFiles/WashingMachineFSM.dir/transition/Transition.cpp.obj: CXX_COMPIL
 #############################################
 # Link the executable WashingMachineFSM.exe
 
-build WashingMachineFSM.exe: CXX_EXECUTABLE_LINKER__WashingMachineFSM_Debug CMakeFiles/WashingMachineFSM.dir/main.cpp.obj CMakeFiles/WashingMachineFSM.dir/state/State.cpp.obj CMakeFiles/WashingMachineFSM.dir/transition/Transition.cpp.obj
+build WashingMachineFSM.exe: CXX_EXECUTABLE_LINKER__WashingMachineFSM_Debug CMakeFiles/WashingMachineFSM.dir/main.cpp.obj CMakeFiles/WashingMachineFSM.dir/State.cpp.obj CMakeFiles/WashingMachineFSM.dir/Transition.cpp.obj CMakeFiles/WashingMachineFSM.dir/FSM.cpp.obj CMakeFiles/WashingMachineFSM.dir/WashingMachine.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\WashingMachineFSM.dir

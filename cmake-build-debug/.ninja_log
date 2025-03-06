@@ -1,0 +1,5 @@
+# ninja log v6
+6	78	7629895262325690	CMakeFiles/WashingMachineFSM.dir/state/State.cpp.obj	d26806f1222e87dc
+11	81	7629895262375721	CMakeFiles/WashingMachineFSM.dir/transition/Transition.cpp.obj	e5d53fb37302096
+2	437	7629895262285688	CMakeFiles/WashingMachineFSM.dir/main.cpp.obj	ddbc8952619a5970
+439	629	7629895266664820	WashingMachineFSM.exe	2afe1553cfe26b17
